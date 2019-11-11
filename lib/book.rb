@@ -1,5 +1,5 @@
 class Book
-  attr_accessor :title, :author, :page_count, :genre
+  attr_accessor :title, :author = "Dan Chaon", :page_count = 300, :genre = "Psychological Thriller"
   @@genres = []
   def initialize(genre, title, author, page_count)
     @genre = genre 
