@@ -20,8 +20,14 @@ class Book
   end
 end 
 
-"Imaginary Friend" = Book.new 
-"Ill Will" = Book.new 
-"Inherent Vice" = Book.new 
-"Hobo Mom" = Book.new
+imaginary_friend = Book.new("Imaginary Friend")
+ill_will = Book.new("Ill Will")
+inherent_vice = Book.new("Inherent Vice")
+hobo_mom = Book.new("Hobo Mom")
+
+imaginary_friend.genre= "Small Town Horror"
+ill_will.genre = "Psychological Family Thriller"
+inherent_vice.genre= "Surreal Noire"
+hobo_mom.genre= "Graphic Novel Domestic Drama"
+
 p Book.genres
