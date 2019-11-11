@@ -8,3 +8,5 @@ class Book
     @page_count = page_count
     @@genres << self.genre
   end 
+  def 
+    puts "Flipping the page...wow, you read fast!"
